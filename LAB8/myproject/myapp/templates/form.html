@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Form{% endblock %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<div class="card-header bg-primary text-white text-center">
+แบบฟอร์มบันทึกข้อมูลประชาชน
+</div>
+
+<div class="card-body">
+
+<form>
+
+<div class="mb-3">
+<label>ชื่อประชาชน</label>
+<input type="text" class="form-control" placeholder="กรุณากรอกชื่อ-นามสกุล">
+</div>
+
+<div class="mb-3">
+<label>อายุ</label>
+<input type="number" class="form-control" placeholder="กรอกข้อมูลอายุเป็นตัวเลข">
+</div>
+
+<button class="btn btn-success">ลงทะเบียน</button>
+<button class="btn btn-danger">ล้างข้อมูล</button>
+
+</form>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+{% endblock %}
